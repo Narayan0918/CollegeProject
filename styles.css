@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a,
+li {
+  color: white;
+  font-weight: 800;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  height: 50px;
+  background-color: white;
+  width: 50px;
+  margin-left: 30px;
+}
+nav#navigation ul li a {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+span#no {
+  color: rgb(255, 255, 255);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* header section */
+
+input.btn {
+  color: white;
+}
+.main {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  background-image: url(https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_1280.jpg);
+  background-position: 0% 0% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2.5px;
+  box-shadow: #000000cf 10px 10px 10px;
+}
+.card {
+  width: 35%;
+  text-align: center;
+  margin-top: 3%;
+  border: 1px solid black;
+  background-color: #0000008f;
+  /* color: #000000; */
+  height: auto;
+  margin-bottom: 5%;
+  margin-left: 1%;
+}
+
+.card h3,
+p {
+  color: #d4d4d4;
+  font-weight: 900;
+  /* font-size: 1.2rem; */
+}
+.card strong {
+  color: #c23131;
+  font-size: 36px;
+  margin-top: 9%;
+}
+.img-fluid {
+  height: 300px;
+  margin-top: 5%;
+}
+
+/* --------------services section--------------------- */
+
+.mask {
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.text-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 5px; */
+}
+
+.text-services span {
+    font-size: 28px;
+    font-weight: 600;
+    color: #f82e2e;
+}
+
+
+
+.bg-image h1 {
+    text-align: center;
+    color: #f82e2e;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.bg-image p {
+    width: 60%;
+    margin-top: 7px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.service_btn .btn{
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+    border: none;
+    background-color: #c43d3d;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+
+.service_btn :hover {
+    background-color: #fffcfc;
+}
+
+.what-we-do{
+    background-color: #000000f3;
+    border-top: 1.5px solid rgba(128, 128, 128, 0.721);
+    
+}
+
+.what-we-do h2{
+    color: red;
+    margin-top: 25px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    box-shadow: white 10px 10px 10px 10px;
+    
+}
+
+.row .col .card{
+  width: 100%;
+  height: 200px;
+  box-shadow: rgba(255, 255, 255, 0.315) 0px 1px 5px 2.5px;
+
+}
+.row .col .card .card-title{
+  color: white;
+}
+.row .col .card .card-body{
+  background-color: #1b1a1ae8;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* contact form styles */
+
+.my-contact {
+  background-image: url("");
+  background-size: 100% 100%;
+  margin-top: 0;
+  border-top: 1px solid #474646;
+  color: white;
+}
+
+.column{
+  margin-bottom: 1%;
+  width: 50%;
+  height: 40%;
+}
+
+.row-form{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  /* border:1px solid red; */
+}
+
+#contact-form{
+  /* border:1px solid rgba(174, 174, 174, 0.573); */
+  padding: 10px;
+
+}
+
+#contact-form .area input{
+  height: 10px;
+}
+
+.form-control{
+  display: grid;
+  border: 1px solid rgba(232, 229, 229, 0.616);
+  padding: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.col-map{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  border-radius: 1%;
+}
+
+.google-map{
+  width: 100%;
+  height: 100%;
+}
+
+.google-map iframe{
+  margin-top: 5%;
+  height: 80%;
+  width: 80%;
+}
+
+.btn-send{
+  width: 40%;
+  margin-left: 30%; 
+
+}
+
+.btn-send input{
+  color: white;
+}
+
+.footer-letter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-up{
+  padding-top: 20px;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+strong{
+  color: red;
+
+}
+
+.news-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212;
+  border: 1px solid #ffffff58;
+  border-radius: 2px;
+}
+
+.newsletter{
+  width: 40%;
+}
+
+.input-news{
+  color: white;
+  font-size: 1rem;
+}
+
+footer{
+  border-top: 0.5px solid #ffffff5d;
+}
+
+.icons a{
+  padding: 10px;
+  height: 2.5rem;
+}
+
+#con i{
+  padding-top: 23px;
+  padding-right: 10px;
+  height: 40px;
+}
+
+
+/* --------------------------------------------------- */
+
+
+@media (min-width:1000px) {
+
+  *{
+    margin: 0;
+    padding: 0;
+    
+
+  }
+
+  .row .col .card{
+    width: 100%;
+    height: 200px;
+    box-shadow: #ffffff50 0px 1px 5px 2.5px;
+    margin-bottom: 50px;
+  
+  }
+.my-contact{
+  background-color: #000000;
+  padding-top: 40px;
+
+}
+
+.section-title h2{
+  color: #e80808e7;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+  form{
+    background-color: #000000;
+  }
+
+  form .form-control{
+    width: 100%;
+    background-color: #2b2929;
+    border: none;
+  }
+  
+}
+
+
+@media (max-width:950px) {
+
+  input.btn {
+    color: #ffffff;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_1280.jpg);
+    /* background-position: 0% 0% 10%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2.5px;
+    box-shadow: #000000cf 0px 11px 0px;
+  }
+  .card {
+    width: 60%;
+    text-align: center;
+    margin-top: 3%;
+    border: 1px solid black;
+    background-color: #0000008f;
+    height: auto;
+    margin-bottom: 5%;
+    margin-left: 1%;
+  }
+  
+  .card h3,
+  p {
+    color: #ffffff;
+    font-weight: 900;
+  }
+  .card strong {
+    color: #c23131;
+    font-size: 36px;
+    margin-top: 9%;
+  }
+  .img-fluid {
+    height: 300px;
+    margin-top: 5%;
+  }
+  
+  
+  
+  
+  .what-we-do{
+    background-color: black;
+  }
+  
+  .row{
+      display: grid;
+
+      
+  }
+
+  .row .col{
+    border-radius: 10px;
+  }
+  
+  .row .col .card{
+
+    width: 400px;
+    height: 90%;
+    border-radius: 10px;
+
+  }
+
+  .row .col .card-body{
+    height: 100px;
+    background-color: #100f0fe8;
+  }
+
+  .row .col .card .card-title{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+  }
+
+
+  .my-contact {
+    background-color: black;
+    background-size: 100% 100%;
+    margin-top: 0;
+    border-top: 1px solid #4746467e;
+    color: white;
+  }
+  
+  .column{
+    margin-bottom: 1%;
+    width: 50%;
+  }
+  
+  .row-form{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    /* border:1px solid red; */
+  }
+  
+  #contact-form{
+    border:1px solid rgba(174, 174, 174, 0.518);
+    padding: 10px;
+  
+  }
+  
+  .form-control{
+    display: grid;
+    border: 1px solid rgba(232, 229, 229, 0.463);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #323131;
+    
+  
+  }
+
+  .section-title{
+    color: red;
+    font-weight: 800;
+  }
+  
+  .col-map{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border-radius: 1%;
+  }
+  
+  .google-map{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .google-map iframe{
+    margin-top: 50px;
+    height: 80%;
+    width: 80%;
+  }
+  
+  .btn-send{
+    width: 40%;
+    margin-left: 30%; 
+  
+  }
+  
+  .btn-send input{
+    color: white;
+  }
+  
+  .footer-letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sign-up{
+    padding-top: 20px;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+  
+  strong{
+    color: red;
+  
+  }
+  
+  .news-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    border-radius: 2px;
+  }
+  
+  .newsletter{
+    width: 40%;
+  }
+  
+  .input-news{
+    color: white;
+    font-size: 1rem;
+  }
+  
+}
+
+
+@media (max-width:400px) {
+  
+}

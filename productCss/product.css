@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(245, 237, 237);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a,
+li {
+  color: white;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  height: 50px;
+  background-color: white;
+  width: 50px;
+  margin-left: 30px;
+}
+nav#navigation ul li a {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+span#no {
+  color: rgb(255, 255, 255);
+}
+
+
+.categories-title h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+    color: red;
+    background-color: #000000;
+    margin-bottom: 0;
+}
+
+
+
+
+.categories {
+    margin-top: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-left: 5%;
+
+}
+
+.category1 ,.category2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cats {
+    flex-basis: 20%;
+    margin-bottom: 50px;
+    margin: 10px;
+    min-width: 250px;
+    padding-left: 10px;
+    padding-top: 10px;
+    transition: transform 0.5s;
+    box-shadow: rgba(255, 255, 255, 0.315) 0px 1px 5px 2.5px;
+    row-gap: 10px;  
+    border-radius: 5%;
+
+}
+
+.cats a{
+    color: red;
+}
+
+
+
+.cats :hover {
+    transform: translateY(-5px);
+}
+
+.cats h4 {
+    position: relative;
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: 400;
+
+}
+
+
+
+.cats img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    border: 1px solid white;
+    box-shadow: rgba(255, 255, 255, 0.315) 0px 1px 5px 2.5px;
+    border-radius: 5%;
+}
+
+.rating ion-icon {
+    color: red;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width:600px) {
+
+    .product-item p {
+        font-size: 17px;
+    }
+
+    .categories{
+      display: flex;
+      justify-content: center
+    }
+
+
+
+
+
+}
+
+;
