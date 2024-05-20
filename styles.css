@@ -37,6 +37,13 @@ nav#navigation ul li a {
   justify-content: space-evenly;
   color: #ffffff;
 }
+#navigation ul li a:hover {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ff0000;
+  text-decoration:none ;
+  text-transform: 0.5s;
+}
 span#no {
   color: rgb(255, 255, 255);
 }
@@ -57,7 +64,7 @@ input.btn {
   flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  background-image: url(https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_1280.jpg);
+  background-image: url(/Project_Garage/images/man-362150.jpg);
   background-position: 0% 0% 10%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,9 +90,20 @@ p {
   /* font-size: 1.2rem; */
 }
 .card strong {
-  color: #c23131;
+  color: #ff1a1a;
   font-size: 36px;
   margin-top: 9%;
+}
+
+.card a input {
+  background-color: #ff1a1a;
+  color: #ffffff;
+ 
+}
+.card a input:hover {
+  background-color: white;
+  color: #ff0000;
+ 
 }
 
 .card-body{
@@ -150,6 +168,7 @@ p {
 
 .service_btn :hover {
     background-color: #fffcfc;
+    color: red;
 }
 
 .what-we-do{
@@ -372,7 +391,7 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
-    background-image: url(https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_1280.jpg);
+    background-image: url(/Project_Garage/images/man-362150.jpg);
     /* background-position: 0% 0% 10%; */
     background-repeat: no-repeat;
     background-size: cover;
