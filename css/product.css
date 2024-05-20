@@ -164,8 +164,8 @@ strong{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #121212;
-  border: 1px solid #ffffff58;
+  background-color: #0b0a0a;
+  border: 1px solid #ffffff0e;
   border-radius: 2px;
 }
 
@@ -174,7 +174,7 @@ strong{
 }
 
 .input-news input{
-  background-color: #535353;
+  background-color:#535353 ;
   color: white;
   font-size: 1rem;
 }
@@ -188,10 +188,20 @@ footer{
   height: 2.5rem;
 }
 
+.footer-letter button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #con i{
   padding-top: 23px;
   padding-right: 10px;
   height: 40px;
+}
+#con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @media(max-width:600px) {

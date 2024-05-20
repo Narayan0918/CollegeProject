@@ -149,8 +149,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #121212;
-    border: 1px solid #ffffff58;
+    background-color: #0b0a0a;
+    border: 1px solid #ffffff0e;
     border-radius: 2px;
   }
   
@@ -159,7 +159,7 @@ nav {
   }
   
   .input-news input{
-    background-color: #535353;
+    background-color:#535353 ;
     color: white;
     font-size: 1rem;
   }
@@ -177,6 +177,13 @@ nav {
     padding-top: 23px;
     padding-right: 10px;
     height: 40px;
+  }
+
+  .footer-letter button{
+    font-size: 0.7rem;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 @media only screen and (max-width: 768px) {
