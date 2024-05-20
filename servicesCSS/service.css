@@ -61,7 +61,10 @@ nav {
 }
 
 .mask {
-    height: 110vh;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #000000;
 }
 
 .text-services {
@@ -69,13 +72,29 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    /* padding-top: 5px; */
+}
+
+.service_btn .btn{
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+    border: none;
+    background-color: #c43d3d;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+
+.service_btn :hover {
+    background-color: #fffcfc;
+    color: red;
 }
 
 .text-services span {
     font-size: 28px;
     font-weight: 600;
-    color: antiquewhite;
+    color: #f82e2e;
 }
 
 
