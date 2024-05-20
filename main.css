@@ -306,8 +306,8 @@ strong{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #121212;
-  border: 1px solid #ffffff58;
+  background-color: #0b0a0a;
+  border: 1px solid #ffffff0e;
   border-radius: 2px;
 }
 
@@ -315,7 +315,8 @@ strong{
   width: 40%;
 }
 
-.input-news{
+.input-news input{
+  background-color:#535353 ;
   color: white;
   font-size: 1rem;
 }

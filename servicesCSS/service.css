@@ -16,7 +16,7 @@ nav {
   nav a,
   li {
     color: white;
-    font-weight: 800;
+    font-weight: 400;
   }
   
   .navbar-brand img {
@@ -118,10 +118,66 @@ nav {
     color: red;
 }
 
-.contact {
+.btn-send{
+    width: 40%;
+    margin-left: 30%; 
+  
+  }
+  
+  .btn-send input{
+    color: white;
+  }
+  
+  .footer-letter{
     display: flex;
-    justify-content: space-around;
-}
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sign-up{
+    padding-top: 20px;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+  
+  strong{
+    color: red;
+  
+  }
+  
+  .news-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    border: 1px solid #ffffff58;
+    border-radius: 2px;
+  }
+  
+  .newsletter{
+    width: 40%;
+  }
+  
+  .input-news input{
+    background-color: #535353;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  footer{
+    border-top: 0.5px solid #ffffff5d;
+  }
+  
+  .icons a{
+    padding: 10px;
+    height: 2.5rem;
+  }
+  
+  #con i{
+    padding-top: 23px;
+    padding-right: 10px;
+    height: 40px;
+  }
 
 @media only screen and (max-width: 768px) {
     .bg-image {
