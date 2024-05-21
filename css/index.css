@@ -95,12 +95,12 @@ p {
   margin-top: 9%;
 }
 
-.card a input {
+.main .card .btn {
   background-color: #ff1a1a;
   color: #ffffff;
  
 }
-.card a input:hover {
+.main .card .btn:hover {
   background-color: white;
   color: #ff0000;
  
@@ -163,12 +163,12 @@ p {
     background-color: #c43d3d;
     color: #ffffff;
     font-weight: 400;
-
 }
 
-.service_btn :hover {
-    background-color: #fffcfc;
+.service_btn .btn:hover {
+    background-color: #ffffff;
     color: red;
+
 }
 
 .what-we-do{
