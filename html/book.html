@@ -15,41 +15,42 @@
 
 <body>
     <!-- navbar -->
-    
-        <nav class="navbar navbar-expand-md navbar-dark " id="navbarContent">
-            <a class="navbar-brand" href="/Project_Garage/index.html"><img src="/Project_Garage/images/logo vector.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent
+
+    <nav class="navbar navbar-expand-md navbar-dark " id="navbarContent">
+        <a class="navbar-brand" href="/Project_Garage/index.html"><img src="/Project_Garage/images/logo vector.png"
+                alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent
          " aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="collapse navbar-collapse" id="navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" aria-current="page"
+                        href="/Project_Garage/index.html">HOME</a>
+                </li>
+                <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/product.html">PRODUCTS</a></li>
+                <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/services.html">SERVICES</a>
+                </li>
+                <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/login.html">LOGIN</a></li>
+                <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/feedback.html">FEEDBACK</a>
+                </li>
+                <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/book.html">BOOK A SESSION</a>
+                </li>
+                <li class="nav-item "><a class="nav-link" href="#con">CONTACT US</a></li>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page"
-                            href="/Project_Garage/index.html">HOME</a>
+                    <!-- Badge -->
+                    <li class="cart">
+                        <a class="nav-link" href="/Project_Garage/html/product.html">
+                            <span class="badge badge-pill bg-danger" id="no">0</span>
+                            <span><ion-icon name="cart"></ion-icon></span>
+                        </a>
                     </li>
-                    <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/product.html">PRODUCTS</a></li>
-                    <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/services.html">SERVICES</a>
-                    </li>
-                    <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/login.html">LOGIN</a></li>
-                    <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/feedback.html">FEEDBACK</a>
-                    </li>
-                    <li class="nav-item "><a class="nav-link" href="/Project_Garage/html/book.html">BOOK A SESSION</a>
-                    </li>
-                    <li class="nav-item "><a class="nav-link" href="#con">CONTACT US</a></li>
-                    <ul class="navbar-nav">
-                        <!-- Badge -->
-                        <li class="cart">
-                            <a class="nav-link" href="/Project_Garage/html/product.html">
-                                <span class="badge badge-pill bg-danger" id="no">0</span>
-                                <span><ion-icon name="cart"></ion-icon></span>
-                            </a>
-                        </li>
-                    </ul>
                 </ul>
-            </nav>
+            </ul>
         </nav>
-        </nav>
-    
+    </nav>
+    </nav>
+
 
     <!-- services section -->
     <div class="container-fluid text-center services">
@@ -131,7 +132,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center book" >
+    <div class="container-fluid text-center book">
         <h5><span class="span">BOOK A SESSION FOR YOUR CAR</span></h5>
         <div class="row justify-content-center ">
             <div class="col-12 col-sm-6 col-md-3">
@@ -171,24 +172,24 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-dark text-center footer text-white" id="con">
+    <footer class="bg-black text-center footer text-white">
         <!-- Grid container -->
-        <div class="container p-4">
+        <div class="container">
             <!-- Section: Social media -->
-            <section class="mb-4">
+            <section class="icons">
                 <!-- Facebook -->
-                <a href="https://web.facebook.com/profile.php?id=100073236677700" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-facebook"></a>
 
                 <!-- Twitter -->
-                <a href="https://twitter.com/Aust1inn" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-twitter"></a>
 
 
                 <!-- Youtube -->
-                <a href="https://www.youtube.com/channel/UCJ5pzKejXZuy7E_31I76gQw" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-youtube"></a>
 
 
                 <!-- Instagram -->
-                <a href="https://www.instagram.com/aust1inn/" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-instagram"></a>
 
 
                 <!-- Linkedin -->
@@ -197,58 +198,52 @@
                 <!-- Google -->
                 <a href="#" class="fa fa-google"></a>
 
-                ></a>
+                </a>
             </section>
             <!-- Section: Social media -->
 
             <!-- Section: Form -->
-            <section class="">
+            <section class="footer-letter">
                 <form action="">
                     <!--Grid row-->
-                    <div class="row d-flex justify-content-center">
+                    <div class="news-box">
                         <!--Grid column-->
-                        <div class="col-auto">
-                            <p class="pt-2">
+                        <div class="sign-up">
+                            <p>
                                 <strong>Sign up for our newsletter</strong>
                             </p>
                         </div>
                         <!--Grid column-->
 
                         <!--Grid column-->
-                        <div class="col-md-5 col-12">
+                        <div class="newsletter">
                             <!-- Email input -->
-                            <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example21" class="form-control" />
-                                <label class="form-label" for="form5Example21">Email address</label>
+                            <div class="input-news">
+                                <input type="email" id="form5Example21" class="form-control" placeholder="E-Mail" />
+
                             </div>
                         </div>
-                        <!--Grid column-->
 
-
-
-                        <!--Grid column-->
                         <div class="col-auto">
-                            <!-- Submit button -->
+
                             <button type="submit" class="btn btn-outline-light mb-4">
                                 Subscribe
                             </button>
                         </div>
-                        <!--Grid column-->
+
                     </div>
-                    <!--Grid row-->
+
                 </form>
 
-                <div class="contact">
-                    <!-- <h6 class="text-uppercase fw-bold mb-4">
-            Contact
-          </h6> -->
-                    <p><i class="fas fa-home me-3"></i> Nairobi, N 00200, KEN</p>
+                <div class="contact" id="con">
+
+                    <p><i class="fas fa-home "></i> Piet , Samalkha</p>
                     <p>
-                        <i class="fas fa-envelope me-3"></i>
-                        smartgarage@gmail.com
+                        <i class="fas fa-envelope "></i>
+                        2821071.cse@pietgroup.co.in
                     </p>
-                    <p><i class="fas fa-phone me-3"></i> + 254 234 567 88</p>
-                    <p><i class="fas fa-print me-3"></i> + 254 234 567 89</p>
+                    <p><i class="fas fa-phone "></i> 7007344437 </p>
+                    <p><i class="fas fa-print "></i>7007344437</p>
                 </div>
 
             </section>
@@ -257,9 +252,9 @@
             <!-- Section: Text -->
             <section class="mb-4">
                 <p>
-                    An online management system that will help link the car owners to garage owners, location of the
-                    garage and help the garage owner track whatever repairs done, and alert the owner once its done plus
-                    the charges
+                    An online management system that will help link the car owners to garage owners, location
+                    of the garage and help the garage owner track whatever repairs done, and alert the owner
+                    once its done plus the charges
                 </p>
             </section>
             <!-- Section: Text -->
@@ -269,9 +264,9 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright:
-            <a class="text-white" href="#">Smartgarage</a>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); border-top: 1px solid #ffffff90;">
+            © 2024 Copyright:
+            <a class="text-white" href="#">Team: G61 PIET</a>
         </div>
         <!-- Copyright -->
     </footer>
