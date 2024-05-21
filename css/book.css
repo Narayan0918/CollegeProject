@@ -4,45 +4,86 @@
     margin: 0;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    
 }
+nav {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  nav a,
+  li {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+    height: 50px;
+    background-color: white;
+    width: 50px;
+    margin-left: 30px;
+  }
+  nav#navigation ul li a {
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+  }
+  #navigation ul li a:hover {
+    display: flex;
+    justify-content: space-evenly;
+    color: #ff0000;
+    text-decoration:none ;
+    text-transform: 0.5s;
+  }
+  span#no {
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
 /* services */
 .services{
-    background-color: grey;
+    padding:30px;
+    background-color: #000000e7;
     color: white;
 }
+
+.services h3{
+    padding-bottom: 30px;
+}
+
+.book h5{
+    color: #f74848;
+    font-size: 2rem;
+    padding-top: 30px;
+
+}
+
 /* form section */
 .form-container {
-    background: #fff;
+    background: #000000a0;
+    color: #ffffff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000;
     width: 100%;
     position: absolute;
     font-weight: 500;
-    margin-top: 60px;
+    margin-top: 30px;
 }
+
 .book {
-    background: url('../images/black-and-white-car-vehicle-vintage.jpg') no-repeat;
+    background: url('/Project_Garage/images/man-362150.jpg');
     background-size: cover;
     height: 100vh;
+    background-position: center;
     width: 100%;   
 } 
-navbar-brand img {
-    border-radius: 50%;
-    height: 100px;
-    margin-left: 10%;
-}
-nav#navigation ul li a {
-    color: black;
-}
-span#no {
-    color: black;
-}
-.span{
-    color: red;
-}
-.contact {
-    display: flex;
-    justify-content: space-around;
-}
