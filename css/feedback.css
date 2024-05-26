@@ -5,19 +5,55 @@
     
 }
 body {
-    background-image: linear-gradient(10deg,white 50%,rgb(190, 25, 25) 50%);
+    background-image: linear-gradient(10deg,white 50%,#0e0b0b 50%);
     height: 100vh;
     @import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap%27);
     font-family: 'Roboto';
 }
 .container-fluid-lg {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 0;
     
 }
 nav {
-    margin-top: 1%;
-}
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a,
+  li {
+    color: white;
+    font-weight: 800;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+    height: 50px;
+    background-color: white;
+    width: 50px;
+    margin-left: 30px;
+  }
+  nav#navigation ul li a {
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+  }
+  #navigation ul li a:hover {
+    display: flex;
+    justify-content: space-evenly;
+    color: #ff0000;
+    text-decoration:none ;
+    text-transform: 0.5s;
+  }
+  span#no {
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: space-around;
+  }
 
 h4.controls-top  {
     color: white;
@@ -28,15 +64,17 @@ h5 {
     color: white;
 }
 .img-text {
-    width: 100%;
+    margin-left: 10%;
+    width: 80%;
     display: block;
     text-align: center;
     padding: 5% 5%;
-    /* background: #262626; */
+    background: #151515;
     color: #fff;
     border-radius: 15px;
     padding-top: 40%;
     font-style: italic;
+    height: 360px;
 }
 .single-box {
     position: relative;
@@ -61,7 +99,7 @@ h5 {
     bottom: -70px;
 }
 .carousel-indicators li {
-    background: rgb(255, 51, 0);
+    background: #fff200;
     border-radius: 50%;
     width: 17px;
     height: 5px;
@@ -77,7 +115,7 @@ h5 {
     border-radius: 50%;
 }
 .carousel-indicators .active {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
 }
 .carousel-control-prev i, .carousel-control-next i {
 	font-size: 16px;
@@ -88,7 +126,7 @@ h5 {
 }
 
 h3.bg {
-    background-color: darkred;
+    background-color: #0e0b0b;
     color: white;
 }
 .controls-top {
@@ -103,17 +141,83 @@ h3.bg {
 }
 textarea {
     width: 100%;
+    background-color: #1c1b1b;
+    color: white;
 }
 .form-outline h3 {
-    font-weight: 800;
+    color: white;
+    /* font-weight: 800; */
 }
 .btn {
     background-color: darkred;
     color: white;
     border-radius: 5px;
     
+    
 }
 .contact {
     display: flex;
     justify-content: space-around;
 }
+
+.btn-send{
+    width: 40%;
+    margin-left: 30%; 
+  
+  }
+  
+  .btn-send input{
+    color: white;
+  }
+  
+  .footer-letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sign-up{
+    padding-top: 20px;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+  
+  strong{
+    color: red;
+  
+  }
+  
+  .news-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b0a0a;
+    border: 1px solid #ffffff0e;
+    border-radius: 2px;
+  }
+  
+  .newsletter{
+    width: 40%;
+  }
+  
+  .input-news input{
+    background-color:#535353 ;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  footer{
+    border-top: 0.5px solid #ffffff5d;
+  }
+  
+  .icons a{
+    padding: 10px;
+    height: 2.5rem;
+  }
+  
+  #con i{
+    padding-top: 23px;
+    padding-right: 10px;
+    height: 40px;
+  }
+  
